@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Tello_Controller.Images">
+    <DrawingImage x:Key="DroneIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup ClipGeometry="M0,0 V512 H512 V0 H0 Z">
+                <DrawingGroup>
+                    <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1 M512,512z M0,0z M315.1,222.6L315.1,152.6 299.6,141.7 246.4,141.7 212.5,141.7 197,152.6 197,222.6 204.8,230.4C204.8,230.4,204.8,281.4,204.8,289.5L197,297.3C197,297.3,197,337.7,197,337.7L197,361C197,361,203.9,361,211,361L226.5,337.7 285.6,337.7 301.1,361C308.2,361,315.1,361,315.1,361L315.1,337.7C315.1,337.7,315.1,297.3,315.1,297.3L307.3,289.5C307.3,281.4,307.3,230.4,307.3,230.4L315.1,222.6z" />
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Geometry>
+                            <EllipseGeometry RadiusX="111.2" RadiusY="111.2" Center="399.8,135.5" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Geometry>
+                            <EllipseGeometry RadiusX="111.2" RadiusY="111.2" Center="399.8,376.5" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Geometry>
+                            <EllipseGeometry RadiusX="111.2" RadiusY="111.2" Center="112.2,135.5" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                    <GeometryDrawing Brush="#FFFFFFFF">
+                        <GeometryDrawing.Geometry>
+                            <EllipseGeometry RadiusX="111.2" RadiusY="111.2" Center="112.2,376.5" />
+                        </GeometryDrawing.Geometry>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>
